@@ -15,7 +15,7 @@ CREATE TABLE managers (
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
 
-CREATE TABLE "emp_detail" (
+CREATE TABLE emp_detail (
     "emp_no" INT   NOT NULL,
     "emp_title_id" VARCHAR   NOT NULL,
     "birth_date" DATE   NOT NULL,
